@@ -1,0 +1,25 @@
+header {
+    background-color: rgb(24, 16, 80);
+    display: flex;
+    padding: 0.5rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+header div{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+header img {
+    width: 4rem;
+    height:  4rem;
+}
+header a{
+    text-decoration: none;
+    color: gold;
+    padding: 1rem;
+}
+header a:hover {
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+}

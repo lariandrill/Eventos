@@ -1,0 +1,40 @@
+.card{
+    width: 60rem;
+    border: 1px solid;
+    margin-bottom: 5rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.card img{
+    width: 100%;
+    width: 59.8rem;
+    height: 40rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.card div {
+    padding: 2rem;
+}
+.card span{
+    font-size: 1.5rem;
+}
+.card button {
+    background-color: rgb(24, 16, 80);
+    color: gold;
+    border: rgb(1, 29, 29);
+    cursor: pointer;
+    height: 3rem;
+}
+.card button:active{
+    background-color: rgb(39, 23, 145);
+}
+.H4{
+    cursor: pointer;
+}
+.H4:hover{
+    text-decoration: underline;
+}
+.IMG {
+    cursor: pointer;
+}
